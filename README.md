@@ -5,7 +5,7 @@ Simple state manager for the LÖVE framework.
 ```
 .newState(pathToFile {string},identifier {string})
 ```
-Loads and stores the specified state with the given identifier. The ID (Identifier) must be unique, so no two states can have the same ID.
+Loads and stores the specified state, assigning it to the given identifier, then executes its :load() function. The ID (Identifier) must be unique, so no two states can have the same ID.
 
 ```
 .removeState(identifier {string})
