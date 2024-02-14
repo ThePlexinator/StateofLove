@@ -16,6 +16,7 @@ Finds and removes the state with the given identifier.
 .moveToState(identifier {string})
 ```
 Switches to the state with the given identifier. Executes the :exit() and :enter() functions to the previous and new state respectively. Adding more arguments to .moveToState() will be received as a table for both functions.
+**NOTE: This is a mandatory function, you must run this at least once!**
 
 ```
 .update(dt {float})
