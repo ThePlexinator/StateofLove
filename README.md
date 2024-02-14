@@ -32,8 +32,14 @@ Draws graphics to the screen using the current state.
 ```
 If dataFile is true, returns the current state's file. Otherwise, if dataFile is false/undefined, returns the current state's ID.
 
+```
+.getStates()
+```
+Returns all loaded states.
 
 # Available Callback Functions
+You're able to add more callback functions in your own projects whenever it is necessary.
+
 ```
 .keypressed(), .keyreleased(), .mousepressed(), .mousereleased(), .mousemoved()
 ```
