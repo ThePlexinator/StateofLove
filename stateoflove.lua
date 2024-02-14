@@ -18,7 +18,7 @@ function stt.removeState(identifier)
         index = index + 1
 
         if id == identifier then
-            availableStates[identifier] = nil -- table.remove does not work here for whatever reason
+            availableStates[identifier] = nil -- table.remove does not work without this for whatever reason
             table.remove(availableStates,index)
             return true
         end
